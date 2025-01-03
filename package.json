@@ -1,8 +1,17 @@
 {
+  "name": "restaurant-booking-server",
+  "version": "1.0.0",
+  "description": "A restaurant table booking system backend.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mongodb": "^6.12.0",
     "mongoose": "^8.9.3"
-  }
+  },
+  "author": "Ajeet Chauhan",
+  "license": "MIT"
 }
